@@ -98,7 +98,7 @@ btn2.addEventListener("click", () => {
   hp1.innerHTML = warrior1.hp;
   range1.value = warrior1.hp;
   if (warrior1.hp <= 0) {
-    let winner = warrior1.name;
+    let winner = warrior2.name;
     result.innerHTML = `<p>Le vainqueur est <strong>${winner}</strong></p>`;
     result.classList.add("finish");
     main.classList.add("finish");
